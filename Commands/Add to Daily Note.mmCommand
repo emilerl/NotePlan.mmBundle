@@ -1,0 +1,7 @@
+{
+	name          = 'Add to Daily Note';
+	environment   = 'MM_SUBJECT=${subject.blob:+[${subject.blob}] }${subject.body}\nMM_MESSAGE_ID=${message-id.split}\n';
+	command       = '#!/bin/bash\n"${MM_BUNDLE_SUPPORT}/bin/add_daily"';
+	keyEquivalent = "";
+	uuid          = '745FE5B6-AFC5-4682-889A-F8A0AEB618BA';
+}

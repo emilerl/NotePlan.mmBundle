@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>rzvy@ohtyvk.bet</string>
+	<key>contactName</key>
+	<string>Emil Erlandsson</string>
+	<key>description</key>
+	<string>Integration with NotePlan via URL scheme.</string>
+	<key>name</key>
+	<string>NotePlan</string>
+	<key>uuid</key>
+	<string>097F5260-D4C7-420E-A8AF-865C81E0F9E0</string>
+</dict>
+</plist>

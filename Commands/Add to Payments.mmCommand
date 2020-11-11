@@ -1,0 +1,7 @@
+{
+	name          = 'Add to Payments';
+	environment   = 'MM_SUBJECT=${subject.blob:+[${subject.blob}] }${subject.body}\nMM_MESSAGE_ID=${message-id.split}\n';
+	command       = '#!/bin/bash\n"${MM_BUNDLE_SUPPORT}/bin/add_payment"';
+	keyEquivalent = "";
+	uuid          = 'E876C16E-BBDD-4971-A1DE-F09E5D68196C';
+}

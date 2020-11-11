@@ -1,0 +1,10 @@
+#!/usr/bin/env python3
+# encoding: UTF-8
+
+import os
+import webbrowser
+import urllib.parse
+import datetime
+
+subject = urllib.parse.quote("- " + os.environ['MM_SUBJECT'] + datetime.date.today().strftime(" >%Y-%m-%d"))
+webbrowser.open('noteplan://x-callback-url/addText?fileName=Payments.txt&mode=prepend&openNote=yes&text=%s' % subject)
